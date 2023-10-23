@@ -23,3 +23,7 @@ def __str__(self):
 
 def get_data_evento(self):
     return self.data_evento.strftime('%d/%m/%Y %H:%M')
+
+
+def input_evento(self):
+    return self.data_evento.strftime('%Y-%m-%dT%H:%M')
